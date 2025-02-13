@@ -1,0 +1,7 @@
+<view class="container">
+  <button bind:tap="startRecord" class="mt10">开始录音</button>
+  <button bind:tap="stopRecord" class="mt10">停止录音</button>
+  <button bind:tap="playRecord" class="mt10">播放录音</button>
+  <button bind:tap="transformRecord" class="mt10">录音转文字</button>
+  <button bind:tap="speechHandler" class="mt10">文字转语音</button>
+</view>
